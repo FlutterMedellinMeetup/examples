@@ -1,0 +1,11 @@
+List<Map<String, dynamic>> movieData = [
+  {'pathImage':"assets/images/the_godfather.jpg",'title':"The Godfather", 'description':"An organized crime dynasty's aging patriarch transfers control of his clandestine empire to his reluctant son."},
+  {'pathImage':"assets/images/the_shawshankredemption.jpg",'title':"The Shawshank Redemption", 'description':"Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency."},
+  {'pathImage':"assets/images/Schindler's List.jpg",'title':"Schindler's List", 'description':"In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis."},
+  {'pathImage':"assets/images/inception.jpg",'title':"Inception", 'description':"A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O."},
+  {'pathImage':"assets/images/The Matrix.jpg",'title':"The Matrix", 'description':"When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence."},
+  {'pathImage':"assets/images/Goodfellas.jpg",'title':"Goodfellas", 'description':"The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen Hill and his mob partners Jimmy Conway and Tommy DeVito in the Italian-American crime syndicate."},
+  {'pathImage':"assets/images/The Silence of the Lambs.jpg",'title':"The Silence of the Lambs", 'description':"A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."},
+  {'pathImage':"assets/images/The Pianist.jpg",'title':"The Pianist", 'description':"A Polish Jewish musician struggles to survive the destruction of the Warsaw ghetto of World War II."},
+  {'pathImage':"assets/images/Gladiator.jpg",'title':"Gladiator", 'description':"A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery."},
+];
