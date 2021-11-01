@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-class ScaleTransitionRoute extends PageRouteBuilder {
+class ScaleTransitionAnimation extends PageRouteBuilder {
   final Widget widget;
   final Duration duration;
 
-  ScaleTransitionRoute({
+  ScaleTransitionAnimation({
     required this.widget,
     this.duration = const Duration(milliseconds: 1000),
   }) : super(

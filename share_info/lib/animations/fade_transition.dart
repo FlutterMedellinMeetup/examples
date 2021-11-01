@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-class FadeTransitionRoute extends PageRouteBuilder {
+class FadeTransitionAnimation extends PageRouteBuilder {
   final Widget widget;
   final Duration duration;
 
-  FadeTransitionRoute({
+  FadeTransitionAnimation({
     required this.widget,
     this.duration = const Duration(milliseconds: 1000),
   }) : super(
