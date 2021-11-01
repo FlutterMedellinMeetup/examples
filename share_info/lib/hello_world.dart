@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class HelloWorld extends StatelessWidget {
   late final String title;
-  late final String description = "Hello World";
+  static const String description = "Hello World";
   HelloWorld({required this.title});
   @override
   Widget build(BuildContext context) {
