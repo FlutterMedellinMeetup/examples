@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'home_page.dart';
+import 'package:share_info/screens/home_page.dart';
 
 class ShareInfoApp extends StatelessWidget {
   @override
