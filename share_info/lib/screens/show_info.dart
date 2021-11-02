@@ -1,22 +1,28 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:share_info/models/info.dart';
+import 'package:share_info/provider/cat_info.dart';
+import 'package:share_info/provider/data_info.dart';
 
 class ShowInfo extends StatelessWidget {
-  late final String title;
-  late final String subTitle;
-  late final String description;
-  ShowInfo({required this.title, required this.description});
+  final Info infoData;
+
+  ShowInfo({required this.infoData});
   @override
   Widget build(BuildContext context) {
     Widget _helloPage = Scaffold(
       appBar: AppBar(
           title: Text(
-        title,
+        infoData.title,
         textScaleFactor: 2,
       )),
       body: Center(
         child: Column(children: [
-          Text(subTitle),
-          Text(description),
+          Text(infoData.subTitle),
+          Text(infoData.description),
+          Consumer<InfoProvider>(builder: (contex, info, _) => Text(info.user)),
+          Consumer<CatInfoProvider>(
+              builder: (contex, info, _) => Text(info.cat))
         ]),
       ),
     );
